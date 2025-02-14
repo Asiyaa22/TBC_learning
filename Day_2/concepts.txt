@@ -1,0 +1,8 @@
+-> Selectors in CSS
+   Types
+-> Cascade in CSS
+-> Specificity in CSS
+
+
+Update: Done with basic Selectors
+have to do Advance selectors ,combinators and the following topics
