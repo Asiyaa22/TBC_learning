@@ -1,0 +1,29 @@
+/* p {
+    color: pink;
+} */ 
+/* Type selector */
+
+/* div p {
+    color: pink;
+} */
+/* .container {  */
+/* width: 500px;
+height: 40px; */
+/* background-color: aqua;
+} */
+/* #txt {
+    color: blue;
+} */
+/* [type] {
+    border: 12px solid rgb(229, 42, 42);
+} */
+/* child COmbinator */
+/* div > p {
+  border: 1px solid black;
+} */
+ /* next-sibling COmbinator  */ 
+ /* + */
+ /* div ~ p {
+    color: red;
+ } */
+ /* subsequent sibling combinator ~ */
