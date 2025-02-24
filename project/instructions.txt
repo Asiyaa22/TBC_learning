@@ -96,7 +96,9 @@ Step 4 : Follow these code steps (You can Do it!!🚀.....Nothing can Stop YOU�
      inside the main class, Now give spacing between the element by Using box-model
      properties and also when we hover over h5 element the color of element should
      change to the color as you can see on the output website.
-
+   ▫ Use Pseudo-element selctor inorder to style the elements when it is selected
+     that is when the text on the website is selcted to copy it, it should have a
+     background-color of #0b593c and color of white.
 
     Vooohooo🎉....congratulations You Have Completed the Unit Test Project!!🏁
     Every great developer you admire was once a beginner. Keep coding, keep growing!🚀
