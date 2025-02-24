@@ -1,0 +1,95 @@
+📝 Instructions for Unit Test Project 🏗
+
+Step 1 : Setup the Project
+   ▫ Create a main html file name it as index.html
+   ▫ Create a style file name it as style.css
+
+Step 2 : Getting Started
+   ▫ Start with boiler plate code in html file and css file
+   ▫ Make sure style file is linked in html file
+
+Step 3 : Look at the Output Website 
+   ▫ Link is here 👉 
+
+Step 4 : Follow these code steps (You can Do it!!🚀.....Nothing can Stop YOU✨)
+   👉 Read the instructions twice you can code it!!
+   👉 Its simple read the instruction and code....Lets do this
+
+   ▫ Firstly, Create a div with class main inside this everything goes in.
+     once done with creating a div with main class, In style file set 100% width
+     and 100vh height to body, Set a font-family of sans-serif to body.
+
+   ▫ Create a h2 element then a button and apply styling to the button by using
+     inheritance property and design the button just like we have in the
+     output Website, Add spacing between the elements accordingly by using the 
+     box-model properties.
+
+   Done✅
+
+   ▫ Then go ahead with creating another div with class name as section
+   ▫ This Div of class section should have h4 element, paragaph elements
+     and an anchor tag this anchor tag should redirect this user to this site
+     "https://www.w3schools.com/css/default.asp".
+   ▫ Give this Div that is of class section a styling like you see on output
+     like background-color, border-radius and Style only the even p tags immediately
+     after h4. (Just like you see on Output web)
+   ▫ Apply styling to anchor tag that is the anchor tag should have a different
+     color based on its state, Using Pseudo-class Selectors apply the styling.
+   ▫ Use box-model properties to add spacing between the elements.
+
+   Done✅
+
+   Eassy Peezzyy....See I told You, You can do it!!
+
+   ▫ Now, use hr tag to add that horizontal line.
+   ▫ Create another div of class content, This div contains an h4 element and
+     a paragaph element (Refer the output website...)
+   ▫ Again Create another div of class section, this div contains h4 element
+     and another div that is of class code.
+   ▫ This code div will have a code (As you can see on the output website)
+     you can add code using pre tag <pre> and code tag <code>
+
+     📝Note: Pre tag <pre> </pre> will preserve the white spaces
+     i.e., white spaces will not be ignored. and using code tag <code></code>
+     we can render code.
+
+   ▫ To this code div give it a border as you can see on output website.
+   ▫ Then Create an anchor tag that should be outside the code div and inside
+     the section div, this anchor tag should navigate user to this web site 
+     "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default" go
+     ahead and apply Pseudo-class selectors just like you
+     did for the previous anchor tag.
+   ▫ Make sure you add spacing between elements using Box-model properties.
+
+   Done✅
+
+   ▫ Now, use hr tag to add that horizontal line.
+
+   You are almost Done!!...Don't give Up You can do it!!
+
+   ▫ Create a div of class contact. Now this div contains an h2 element,
+     a form, and a paragaph tag.
+   ▫ Add a link emoji after h2 element using Pseudo-element selector.
+   ▫ This form contains two input elements
+     One for name, and another one for mail.
+   ▫ Apply Pseudo-class selectors inorder to style input based on its state
+     that is when the input element is clicked (focus) it should have a border
+     and background-color properties as you can see on the output website
+   ▫ After this form element, Create a button, on hover the background-color
+     of button should change as you can see on the output website. 
+   ▫ After this button element, Create a paragaph element.
+   ▫ Add spacing between the elements using box-model properties.
+
+   ▫ Finally, Create an h5 element outside the contact class and make sure it is
+     inside the main class, Now give spacing between the element by Using box-model
+     properties and also when we hover over h5 element the color of element should
+     change to the color as you can see on the output website.
+
+
+    Vooohooo🎉....congratulations You Have Completed the Unit Test Project!!🏁
+    Every great developer you admire was once a beginner. Keep coding, keep growing!🚀
+
+    🏁 A journey From Nothing to Something ✨
+
+    
+

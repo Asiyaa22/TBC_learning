@@ -9,6 +9,7 @@ body, html {
     font-family: sans-serif;
 }
 .main {
+    font-size: 18px;
     padding: 10px 15px;
 }
 .main h2{
@@ -32,40 +33,32 @@ button {
 .section {
     border-radius: 5px;
     padding: inherit;
-    margin: 8px 0px;
-    background-color: #E7E9EB;
+    margin: 18px 0px;
+    background-color: #D9EEE1;
+}
+.section > h4 ~ p:nth-child(2n+1) {
+    background-color: #059862;
 }
 .section h4, p{
     margin-top: 8px;
     margin-bottom: 8px;
 }
-h4, h3 {
-    font-weight: 520;
+h4{
+    font-size: 22px;
+    font-weight: 580;
 }
-/* a {
-    all: initial;
-    display: inline-block;
-    border: 1px solid green;
-    background-color: #059862;
-    color: white;
-    border-radius: 2.5px;
-    padding: 8px;
-    margin-top: 2px;
-} */
-.content {
+.content, .contact {
     padding: inherit;
 }
 .code {
     background-color: white;
     margin-top: 8px;
     margin-bottom: 8px;
+    color: rgb(17, 65, 207);
     border-left: 4px solid  #059862;
 }
-.contact {
-    padding: inherit;
-}
-.contact h3 {
-    margin-bottom: 5px;
+.contact h2::after {
+    content: ' 🔗';
 }
 form {
     margin: 8px 0px;
@@ -99,4 +92,16 @@ a:active {
 }
 a:visited {
     color:#059862;
+} 
+.main h5:last-child {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+.main h5:hover {
+    color: #059862;
+}
+*::selection {
+    background-color: #0b593c;
+    color: white;
 }
