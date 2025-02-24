@@ -9,7 +9,7 @@ Step 2 : Getting Started
    ▫ Make sure style file is linked in html file
 
 Step 3 : Look at the Output Website 
-   ▫ Link is here 👉 
+   ▫ Link is here 👉 https://asiyaa22.github.io/TBC_learning/project/index.html
 
 Step 4 : Follow these code steps (You can Do it!!🚀.....Nothing can Stop YOU✨)
    👉 Read the instructions twice you can code it!!
