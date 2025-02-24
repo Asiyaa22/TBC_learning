@@ -15,6 +15,18 @@ Step 4 : Follow these code steps (You can Do it!!🚀.....Nothing can Stop YOU�
    👉 Read the instructions twice you can code it!!
    👉 Its simple read the instruction and code....Lets do this
 
+   Note: Colors Guide
+    👉 For the background-color of button color is: #059862
+    👉 For the border-color of button color is: green
+    👉 On hover the background-color of button should change to this color: #11543be3
+    👉 The background-color of section div is:  #D9EEE1
+    👉 The color of text inside code class is : rgb(17, 65, 207)
+    👉 Input field on focus should have a border color of black and
+        background-color of : #059862
+    👉 last h5 element on hover should have a color of : #059862
+    👉 paragaph elements of nth-child should have a background-color of: #059862
+
+    
    ▫ Firstly, Create a div with class main inside this everything goes in.
      once done with creating a div with main class, In style file set 100% width
      and 100vh height to body, Set a font-family of sans-serif to body.
