@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(222, 222, 44);
+    color: rgb(0, 0, 0);
+    height: 10vh;
+    width: 100%;
+}
+.nav {
+    padding: 20px;
+    margin: 0px 30px;
+}
+li {
+    margin: 0px 10px;
+    list-style: none;
+    display: inline-block;
+}
+.nav-1, .nav-2 {
+    display: inline-block;
+    cursor: pointer;
+}
+.nav-2 {
+    float: right;
+}

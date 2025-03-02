@@ -1,0 +1,25 @@
+/*  {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+body {
+  margin: 0;
+}
+h2{
+  /* color: pink; */
+  background-color: aqua;
+  /* margin: 10px; */
+}
+p {
+  display: inline;
+  background-color: violet;
+}
+.box {
+  display: inline;
+  background-color: yellow;
+  /* margin: 10px; */
+}
+span {
+  background-color: brown;
+}
