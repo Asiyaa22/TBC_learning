@@ -1,0 +1,21 @@
+Structured Grading System (Total: 20 Marks)
+
+1. Project Setup & Code Structure (3 Marks)
+Project setup (Correct file structure, index.html and style.css created and linked properly) – 1 mark
+Boilerplate code (Proper HTML structure: <!DOCTYPE html>, <html>, <head>, <body>) – 1 mark
+Code structure (Proper indentation, clean formatting, well-organized CSS) – 1 mark
+2. Fundamental CSS Concepts (4 Marks)
+Correct use of box-sizing: border-box; – 1 mark
+Setting body dimensions & applying font-family: sans-serif; – 2 marks
+Using a common class for shared styling (instead of repetitive CSS) – 1 mark
+3. CSS Styling & Layout (5 Marks)
+Button styling with inheritance (button follows inherited styles properly) – 1 mark
+Consistent spacing & layout (padding/margin used effectively) – 1 mark
+Correct use of <pre> and <code> tags for displaying code – 1 mark
+Styling links properly and ensuring correct navigation – 2 marks
+4. Selectors & Advanced CSS (8 Marks)
+Correct use of nth-child selector – 2 marks
+Proper use of pseudo-class selectors (:hover, :focus, etc.) – 2 marks
+Correct use of pseudo-element selectors (::selection, etc.) – 1 mark
+Applying ::selection to style selected text properly – 2 marks
+Overall correct implementation of pseudo-selectors together – 1 mark
