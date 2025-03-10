@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    width: 100%;
+    height: 100vh;
+}
+.nav {
+    height: 20vh;
+    width: 100%;
+    background-color: aqua;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    border-radius: 50%;
+    margin: 10px;
+}
+li {
+    list-style: none;
+}
+.nav-2 {
+    width: 40%;
+    padding-top: 50px;
+}
+ul {
+    /* height: inherit; */
+    display: inline-flex;
+    gap: 10px;
+   
+}

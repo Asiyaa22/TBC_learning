@@ -1,0 +1,4 @@
+On Day 10 will explain everything about grid in css
+Discucssing all the properties of grids and will work on grid practical explanation
+Grid Game
+Mini task on grid
