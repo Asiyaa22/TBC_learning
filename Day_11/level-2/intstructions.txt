@@ -1,0 +1,8 @@
+The grid should have two columns and two rows.
+Dimensions of columns are 300px 1000px;
+Dimensions of rows are 380px 80px;
+Background color of .sidebar is #f4f4f4
+Background color of .content is rgb(226,204,204)
+Background color of .progress is #d1f7c4
+Background color of divs inside .content class is #e8f0fe
+Background color of list items inside sidebar is #ddd
