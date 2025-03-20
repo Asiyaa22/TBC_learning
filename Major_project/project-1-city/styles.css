@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family:  plus jakarta sans;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #e6e8e7;
+}
+.animate {
+    mix-blend-mode: multiply;
+}
+.img3 {
+    border-radius: 50%;
+    margin-right: auto;
+}
+header {
+    padding: 30px 10%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.list {
+    padding: 9px 0px;
+    display: inline-flex;
+}
+a {
+  letter-spacing: -1px;
+  font-weight: 300;
+  font-size: 20px;
+  color: rgb(59, 56, 56);
+  text-decoration: none;
+}
+li {
+    list-style: none;
+    padding: 10px 20px;
+    cursor: pointer;
+} 
+.list li:hover{
+    cursor: pointer;
+    background-color: #4d5ee8;
+    border-radius: 8px;
+}
+header button {
+    margin-right: 22px;
+    margin-left: 20px;
+    padding: 9px 25px;
+    border-radius: 50px;
+    width: 180px;
+    letter-spacing: -1px;
+    font-size: 20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer; 
+}
+.container-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 30px;
+} 
+.logo{
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+.info { 
+    padding: 150px 10px 60px 90px;
+    font-weight: 400;
+    font-size: 28px;
+    color: #4d5ee8;
+}
+.info h1 {
+    letter-spacing: -1px;
+    line-height: 2.0;
+}
+.info h1::before {
+    content: '🖥️';
+}
+.info p {
+    line-height: 1.2;
+}
+.hold{
+    width: 480px;
+    height: 50px;
+    padding: 2px 5px 2px 10px;
+    background-color: white;
+    border: 1px solid rgb(197, 190, 190);
+    border-radius: 25px; 
+    display: flex;
+    align-items: center;
+} 
+.hold input{
+    border: 0;
+    flex: 1;
+    outline: none;
+    font-size: 18px;
+}
+.hold input::placeholder {
+    font-size: 18px;
+    color: black;
+    padding-left: 2px;
+}
+.container-2 {
+    margin-bottom: 20px;
+}
+.hold button{
+    width: 120px;
+    height: 40px;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    cursor: pointer;
+}
+.search-bar {
+    padding-top: 30px;
+}
+.hold img {
+    mix-blend-mode: multiply;
+}
+/* styling of cards */
+.wrapper {
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid  #4d5ee8;
+    border-radius: 30px;
+    background-color: #4d5ee8;
+}
+h2{
+    padding-top: 10px;
+    margin-top: 10px;
+    font-family: plus jakarta sans;
+    color: white;
+    text-align: center;
+}
+#p-s {
+    padding-top: 5px;
+    font-size: 22px;
+    font-family: plus jakarta sans;
+    color: rgb(252, 248, 248);
+    text-align: center;
+}
+.feature {
+    padding: 20px 0px 0px 0px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards-about {
+    width: 350px;
+    height: 260px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 8px; 
+    border-bottom: 7px solid pink;
+} 
+.cards-about:hover {
+    cursor: pointer;
+}
+.icon {
+    text-align: center;
+}
+.info-text h3 {
+    text-align: center;
+    color: rgb(17, 17, 17);
+    font-size: 18px;
+    letter-spacing: -1px;
+} 
+.info-text p {
+    text-align: center;
+    color: rgb(59, 56, 56);
+    font-size: 18px; 
+} 
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background-color: #4d5ee8;
+    padding: 30px 20px;
+    gap: 20px;
+}
+.foot-content {
+padding: 10px;
+}
+.foot-content p {
+    padding: 10px 0;
+}
+.foot a {
+    font-size: 22px;
+    font-weight: 400;
+}
+.foot a:link {
+    color: black;
+}
+.foot a:hover {
+    color:rgb(197, 190, 190)
+}
