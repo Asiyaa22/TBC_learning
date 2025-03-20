@@ -11,12 +11,6 @@ body{
     height: 100vh;
     background-color: #e6e8e7;
 }
-.logo{
-    mix-blend-mode: multiply;
-    position: absolute;
-    top: 100px;
-    left: 0px;
-}
 .animate {
     mix-blend-mode: multiply;
 }
@@ -29,8 +23,6 @@ header {
     display: flex;
     justify-content: end;
     align-items: center;
-    position: sticky;
-    top: 0px;
 }
 .list {
     padding: 9px 0px;
@@ -46,7 +38,6 @@ a {
 li {
     list-style: none;
     padding: 10px 20px;
-    /* padding:0px 25px; */
     cursor: pointer;
 } 
 .list li:hover{
@@ -81,6 +72,9 @@ header button {
 .info h1 {
     letter-spacing: -1px;
     line-height: 2.0;
+}
+.info h1::before {
+    content: '🖥️';
 }
 .info p {
     line-height: 1.2;
@@ -150,7 +144,6 @@ h2{
 }
 .feature {
     padding: 20px 0px 0px 0px;
-    /* margin-left: 40px; */
     justify-content: center;
     display: flex;
     flex-wrap: wrap;

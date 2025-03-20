@@ -14,6 +14,13 @@
   ◾ Rest of the paragraphs tag color can be applied by seeing the ouput design.
   ◾ The links inside footer should be of black color and when you hover over it,
     the color should change to rgb(197, 190, 190);
+  ◾ Interact with website, and apply styling accordingly on hover effects etc.
+  ◾ To add this 🖥️ before h1 element use a before pseudo-element.
+  ◾ To blend an image with the background color of the body, you can use the mix-blend-mode property. This CSS property allows an element to mix with the background based on different blending modes.
+
+     ✅ Steps to Apply mix-blend-mode: multiply;
+     Ensure the body has a background color set.
+     Apply mix-blend-mode: multiply; to the image to blend it with the background.
 
   👉 You can see the live website here
   🔗https://asiyaa22.github.io/TBC_learning/Major_project/Project-1/index.html
