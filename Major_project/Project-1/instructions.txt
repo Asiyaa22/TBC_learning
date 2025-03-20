@@ -14,3 +14,6 @@
   ◾ Rest of the paragraphs tag color can be applied by seeing the ouput design.
   ◾ The links inside footer should be of black color and when you hover over it,
     the color should change to rgb(197, 190, 190);
+
+  👉 You can see the live website here
+  🔗https://asiyaa22.github.io/TBC_learning/Major_project/Project-1/index.html
