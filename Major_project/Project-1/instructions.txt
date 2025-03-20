@@ -1,0 +1,16 @@
+👉Use a font-family: plus jakarta sans (This is google font and we can import it using these links in our css file)
+🔗Link for fonts
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+🔴To use these fonts, simply include these import statements in your style file, then set font-family: plus jakarta sans
+👉Colors we have used are
+  ◾ Background color for body - background-color: #e6e8e7;
+  ◾ Nav li items should have color: rgb(59, 56, 56);
+  ◾ Backgound color for button - background-color: orangered;
+  ◾ Text color - color: #4d5ee8;
+  ◾ border color for input field - rgb(197, 190, 190);
+  ◾ Color of container and footer is -  color: #4d5ee8;
+  ◾ Color of bottom border of cards must be - pink;
+  ◾ Rest of the paragraphs tag color can be applied by seeing the ouput design.
+  ◾ The links inside footer should be of black color and when you hover over it,
+    the color should change to rgb(197, 190, 190);
