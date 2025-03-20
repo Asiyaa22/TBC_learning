@@ -23,4 +23,4 @@
      Apply mix-blend-mode: multiply; to the image to blend it with the background.
 
   👉 You can see the live website here
-  🔗https://asiyaa22.github.io/TBC_learning/Major_project/Project-1/index.html
+  🔗https://asiyaa22.github.io/TBC_learning/Major_project/project-1-city/index.html
