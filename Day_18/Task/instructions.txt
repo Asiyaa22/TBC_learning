@@ -1,0 +1,40 @@
+Instructions:
+
+1️⃣ Understand the Structure:
+
+👉 The .container is a 300x300px box with a black border.
+
+👉 There are three boxes (.box1, .box2, .box3) inside it.
+
+2️⃣ Apply Positioning:
+
+👉 Set the .box class to position: absolute; so elements can be placed freely inside .container.
+
+3️⃣ Define Styling for Each Box:
+
+👉 Each box should have a size of 150x150px and a slightly transparent look (opacity: 0.8).
+
+👉 Give different background colors:
+
+👉 .box1 → Red
+
+👉 .box2 → Blue
+
+👉 .box3 → Green
+
+4️⃣ Position Each Box:
+
+👉 .box1: top: 30px; left: 30px;
+
+👉 .box2: top: 50px; left: 50px;
+
+👉 .box3: top: 70px; left: 70px;
+
+5️⃣ Layering with Z-Index:
+
+👉 .box1 should be behind the other two 
+
+👉 .box2 should be above box1 but below box3
+
+👉 .box3 should be on top of all
+
