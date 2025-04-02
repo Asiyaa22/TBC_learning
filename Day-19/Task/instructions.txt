@@ -1,0 +1,22 @@
+👉 Instructions for Task on Functions
+
+👉Color Guide:
+▫ Background-color: white
+▫ text color: black
+▫ Button color: orangered
+
+👉Images links :
+▫ https://images.unsplash.com/photo-1701707243514-249557c24b07?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8dG93SlpGc2twR2d8fGVufDB8fHx8fA%3D%3D
+▫ https://images.unsplash.com/photo-1613991917190-e68d404b2617?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fG1vZGVsc3xlbnwwfHwwfHx8MA%3D%3D
+▫ https://images.unsplash.com/photo-1579463148228-138296ac3b98?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fG1vZGVsc3xlbnwwfHwwfHx8MA%3D%3D
+▫ https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fG1vZGVsc3xlbnwwfHwwfHx8MA%3D%3D
+
+
+▫ Refer the output and start building the website
+▫ Give dimensions using calc functions
+▫ Use Custom CSS PRoperties and CSS Variables for colors, font-sizes.
+▫ USe min() or max() functions to define min and max size of elements
+▫ Use logical properties instead of Physical Properties
+▫ Use Transform functions to rotate the images
+▫ Ensure Spacing, and sizing is perfect.
+▫ Ensure your web page the exact clone of the expected output.
