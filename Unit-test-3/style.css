@@ -1,0 +1,284 @@
+/* CSS Variables */
+:root {
+  --font-size-base: 62.5%;
+  --font-family: sans-serif;
+  --bg-color: #EAE5E2;
+  --primary-color: #7108f6;
+  --secondary-color: #444444;
+  --text-color: #000;
+  --white-color: #fff;
+  --shadow-color: rgba(163, 163, 163, 0.75);
+  --transition-speed: 0.3s;
+  --button-radius: 2.5rem;
+  --button-padding: 1rem 2rem;
+  --icon-size: 2rem;
+  --icon-padding: 1.5rem 1.6rem;
+}
+
+/* global reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+    font-size: var(--font-size-base);
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+  }
+  button {
+    cursor: pointer;
+  }
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+/* Hero Section */
+.hero {
+    /* background-image: url(); */
+    background-image: url("images/main_bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  /* Navigation Section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    height: 15vh;
+  }
+  
+  .nav_left_section,
+  .nav_right_section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav_left_section .logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .nav_left_section .logo a img {
+    height: 5rem;
+  }
+  
+  .nav_left_section button {
+    font-size: 1.5rem;
+    padding: var(--button-padding);
+    border-radius: var(--button-radius);
+    border: none;
+    margin-left: 2.5rem;
+    color: var(--white-color);
+    background: var(--primary-color);
+    transition: all ease-in-out var(--transition-speed);
+  }
+  
+  .nav_left_section button:hover {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+  }
+  
+  .nav_left_section .nav_link {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  .nav_left_section .nav_link li {
+    margin-left: 2.5rem;
+    position: relative;
+    padding: 0.2rem;
+  }
+  
+  .nav_left_section .nav_link li a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--text-color);
+  }
+  .nav_right_section button {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    border-radius: var(--button-radius);
+    border: 0.2rem solid var(--primary-color);
+    transition: all ease-in-out 0.2s;
+  }
+  
+  .nav_right_section button:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+  }
+  
+  .nav_right_section .social_media a {
+    text-decoration: none;
+  }
+  .nav_right_section .social_media a i {
+    font-size: var(--icon-size);
+    margin-left: 2rem;
+    background-color: var(--white-color);
+    padding: var(--icon-padding);
+    border-radius: 50%;
+    color: var(--text-color);
+  }
+  
+  .nav_right_section .connect_btn {
+    margin-left: 2rem;
+    border: none;
+  }
+  /* <!-- Home Section Start --> */
+.home_section_content {
+    height: calc(100vh - 15vh);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .home_left_section_content {
+    width: 40%;
+    text-align: left;
+  }
+  .home_left_section_content h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  
+  .home_left_section_content h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin: 1rem 0;
+  }
+  .home_left_section_content h1 span {
+    color: #000;
+  }
+  
+  .home_left_section_content p {
+    opacity: 0.7;
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+  .home_right_section_content {
+    width: 40%;
+    text-align: right;
+  }  
+  .home_right_section_content  img {
+    mix-blend-mode: multiply;
+  }
+  /* <!-- Get In Touch Section Start --> */
+.form_section {
+    padding: 5rem 0;
+  }
+  .header_section {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .form_section h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    position: relative;
+    display: inline-block;
+  }
+
+  
+  .form_section form {
+    padding: 5rem;
+    border-radius: 7rem 0;
+    background-color: var(--white-color);
+  }
+  
+  .form_section form input,
+  .form_section form select,
+  .form_section form textarea {
+    padding: 1rem 2rem;
+    font-size: 2.5rem;
+    border-radius: 2.5rem;
+    width: 100%;
+    display: block;
+    margin: 0 auto 2rem auto;
+    outline: none;
+    border: 0.2rem solid gray;
+  }
+  
+  .form_section form textarea {
+    resize: none;
+    height: 17rem;
+  }
+  .form_section form .form_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .form_section form .form_footer p {
+    font-size: 1rem;
+  }
+  
+  .form_section form .form_footer button {
+    font-size: 1.5rem;
+    padding: 1rem 4rem;
+    border-radius: var(--button-radius);
+    color: var(--white-color);
+    background: var(--primary-color);
+    border: 0.2rem solid var(--primary-color);
+    /* transition: all ease-in-out var(--transition-speed); */
+  }
+  .form_section form .form_footer button:hover {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+  }
+  .container {
+    width: 800px;
+  }
+  /* <!-- Copyright Section Start --> */
+.copyright_section {
+    width: 100%;
+    padding: 0.7rem 3rem;
+    background: var(--primary-color);
+    color: var(--white-color);
+  }
+  .copyright_content_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .copyright_section .left_section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .copyright_section .left_section img {
+    width: 5rem;
+  }
+  
+  .copyright_section .left_section h3 {
+    padding-left: 2rem;
+  }
+  
+  .copyright_section .left_section h3 span {
+    padding-left: 7rem;
+  }
+  
+  .copyright_section .right_section h3 {
+    text-align: end;
+  }
+  
+  
