@@ -34,12 +34,6 @@ html {
   button {
     cursor: pointer;
   }
-  .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
 /* Hero Section */
 .hero {
     /* background-image: url(); */
@@ -140,26 +134,37 @@ nav {
     border: none;
   }
   /* <!-- Home Section Start --> */
+  .container-1 {
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    /* display: flex; */
+  }
 .home_section_content {
     height: calc(100vh - 15vh);
+    width: 80vw; 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 90px;
+    /* gap: 90px; */
+    /* background-color: aqua; */
   }
   
   .home_left_section_content {
-    width: 40%;
+    width: 50%;
     text-align: left;
   }
   .home_left_section_content h3 {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   
   .home_left_section_content h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 600;
     color: var(--primary-color);
     margin: 1rem 0;
@@ -170,11 +175,11 @@ nav {
   
   .home_left_section_content p {
     opacity: 0.7;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-align: justify;
   }
   .home_right_section_content {
-    width: 40%;
+    width: 50%;
     text-align: right;
   }  
   .home_right_section_content  img {
@@ -183,6 +188,10 @@ nav {
   /* <!-- Get In Touch Section Start --> */
 .form_section {
     padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .header_section {
     text-align: center;
@@ -201,56 +210,54 @@ nav {
   .form_section form {
     padding: 5rem;
     border-radius: 7rem 0;
+    width: 600px;
     background-color: var(--white-color);
   }
-  
+
   .form_section form input,
-  .form_section form select,
-  .form_section form textarea {
-    padding: 1rem 2rem;
-    font-size: 2.5rem;
-    border-radius: 2.5rem;
-    width: 100%;
-    display: block;
-    margin: 0 auto 2rem auto;
-    outline: none;
-    border: 0.2rem solid gray;
-  }
-  
-  .form_section form textarea {
-    resize: none;
-    height: 17rem;
-  }
-  .form_section form .form_footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .form_section form .form_footer p {
-    font-size: 1rem;
-  }
-  
-  .form_section form .form_footer button {
-    font-size: 1.5rem;
-    padding: 1rem 4rem;
-    border-radius: var(--button-radius);
-    color: var(--white-color);
-    background: var(--primary-color);
-    border: 0.2rem solid var(--primary-color);
-    /* transition: all ease-in-out var(--transition-speed); */
-  }
-  .form_section form .form_footer button:hover {
-    background-color: var(--white-color);
-    color: var(--primary-color);
-  }
-  .container {
-    width: 800px;
-  }
+.form_section form select,
+.form_section form textarea {
+  padding: 1rem 2rem;
+  font-size: 2.5rem;
+  border-radius: 2.5rem;
+  width: 100%;
+  display: block;
+  margin: 0 auto 2rem auto;
+  outline: none;
+  border: 0.2rem solid gray;
+}
+
+.form_section form textarea {
+  resize: none;
+  height: 17rem;
+}
+
+.form_section form .form_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form_section form .form_footer button {
+  font-size: 1.5rem;
+  padding: 1rem 4rem;
+  border-radius: var(--button-radius);
+  color: var(--white-color);
+  background: var(--primary-color);
+  border: 0.2rem solid var(--primary-color);
+}
+.form_section form .form_footer button:hover {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+}
+
+
   /* <!-- Copyright Section Start --> */
 .copyright_section {
+    font-size: 16px;
+    font-weight: 400;
     width: 100%;
-    padding: 0.7rem 3rem;
+    padding: 0.9rem 3rem;
     background: var(--primary-color);
     color: var(--white-color);
   }
@@ -270,7 +277,7 @@ nav {
   }
   
   .copyright_section .left_section h3 {
-    padding-left: 2rem;
+    padding-left: 2.5rem;
   }
   
   .copyright_section .left_section h3 span {
