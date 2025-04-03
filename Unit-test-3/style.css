@@ -146,6 +146,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 90px;
   }
   
   .home_left_section_content {
